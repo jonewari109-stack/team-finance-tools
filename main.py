@@ -1,0 +1,35 @@
+import function.interest as it
+import function.monthly_saving as ms
+import function.exchange as ex
+import function.deposit as dp
+import function.withdraw as wd
+
+# 입급후 남은 잔액
+balance = 0
+amount = 0
+result = dp.deposit(balance, amount)
+print(result)
+
+#출금 후 남은 잔액
+balance = amount = 0
+withdraw = wd.withdraw(balance,amount)
+print(withdraw)
+
+#환율 계산
+exchange = 0
+amount = exchange__rate = 0
+exchange = ex.exchange_money(amount, exchange__rate)
+print(exchange)
+
+#이자 계산
+interst = balance = rate = 0
+interst = it.calculate_interest(balance, rate)
+print(interst)
+
+#월 저축액
+saving = target = months = 0
+saving = ms.monthly_saving(target,months)
+print(months)
+
+
+
