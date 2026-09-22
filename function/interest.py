@@ -1,6 +1,9 @@
 def calculate_interest(balance, rate):
+    balance=0
+    rate=0
+
     interest=0
-    balance/rate=interest
+    balance/rate==interest
 
 
 
