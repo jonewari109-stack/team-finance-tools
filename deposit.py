@@ -10,4 +10,4 @@
 
 def deposit(balance, amount):
     result = balance + amount 
-    return resultSS
+    return result
